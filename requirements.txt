@@ -1,0 +1,23 @@
+# ─── Penetration Testing Pipeline — Python Dependencies ─────────────────────
+# Install with:  pip install -r requirements.txt
+
+# Network scanning
+python-nmap==0.7.1
+
+# SMB / Windows protocol interaction (exploitation checks)
+impacket==0.12.0
+
+# HTTP requests (Nessus API client)
+requests==2.32.3
+urllib3==2.2.3
+
+# Data handling (optional — used by analysis helpers)
+pandas==2.2.3
+
+# Reporting (HTML generation is pure stdlib, these are optional extras)
+# Uncomment if you want PDF export:
+# weasyprint==62.3
+
+# ─── Dev / Testing ────────────────────────────────────────────────────────────
+pytest==8.3.3
+pytest-cov==5.0.0
